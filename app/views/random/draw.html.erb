@@ -1,0 +1,5 @@
+<h1> Random Number </h1>
+
+<p>
+  A random number between <%= @lower %> and <%= @upper %> is <%= @lower.to_i + rand(@upper.to_i - @lower.to_i + 1) %>
+</p>
