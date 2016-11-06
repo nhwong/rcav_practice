@@ -1,0 +1,7 @@
+<h1> Payment </h1>
+
+<p>
+  A <%= @years %> loan of $<%= @notional %>,
+  with an annual interest of <%= (100 * @rate).round(2) %>%,
+  requires a monthly payment of $<%= @monthly_payment.round(2) %>
+</p>
